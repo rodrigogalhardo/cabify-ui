@@ -1,0 +1,22 @@
+<ion-header>
+
+  <ion-navbar color="transparent">
+
+    <div class="contoles">
+      <div ion-button menuToggle class="perfil-button">
+        <img src="{{ 'assets/img/no_user.png'}}">
+      </div>
+
+      <button ion-button round>Ahora</button>
+      <button ion-button round clear>Reserva</button>
+    </div>
+
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content no-bounce fullscreen id="map"></ion-content>
+
+<ion-footer>
+  <button [ngClass]="{'en_movimiento': classTransActive }" ion-button block>Siguiente paso</button>
+</ion-footer>

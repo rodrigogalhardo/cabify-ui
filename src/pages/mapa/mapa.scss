@@ -1,0 +1,32 @@
+ion-app._gmaps_cdv_ .nav-decor{
+  background-color: transparent !important;
+}
+
+page-mapa {
+
+  .scroll-content {
+    //height: 0;
+    width: 5%;
+  }
+
+  .fixed-content {
+    height: 0;
+  }
+
+  ion-footer{
+    padding: 8px !important;
+
+    button {
+      margin: 0 !important;
+      font-weight: bold;
+      font-size: 1.4rem !important;
+      height: 3.6em !important;
+    }
+
+  }
+
+  .en_movimiento {
+
+    opacity: .7 !important;
+  }
+}
