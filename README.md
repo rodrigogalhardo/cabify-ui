@@ -1,31 +1,32 @@
 ## IONIC V3 CABIFY UI THEMPLATE
 
-Esto es una plantilla para [ionic](http://ionicframework.com/) que pretende clonar el UI de la aplicacion cabify utilizando los [componentes](http://ionicframework.com/docs/components/) de ionic. La plantilla utiliza el api nativa de googlemaps por lo que solo funcioná en ios/android. 
-La única finalidad de esta plantilla es servir a modo de ejemplo. Todas las [aportaciones](https://github.com/luisbahamonde/ionic-cabify-ui/pulls) y sugerencias seran bienvenidas
+Este é um modelo para [ionic] (http://ionicframework.com/) que tenta clonar a UI do aplicativo cabify usando os [componentes] (http://ionicframework.com/docs/components/) de ionic. O modelo usa a api nativa de googlemaps para que ele só funciona em ios / android.
+O único propósito deste modelo é servir como um exemplo. Todas as [contribuições] (https://github.com/rodrigogalhardo/cabify-ui/pulls) e sugestões serão bem-vindas.
 
-### Instalación
+### Instalação
 
-Instalacion de la última versión disponible de ionic y codova.
+Instalação da última versão disponível de ionica e codova.
 
 ```bash
 $ sudo npm install -g ionic cordova
 
 ```
-
-después clona el proyecto
+depois é só clonar o projeto.
 
 ```bash
-$ git clone https://github.com/luisbahamonde/ionic-cabify-ui.git
+$ git clone https://github.com/rodrigogalhardo/cabify-ui.git
 $ cd ionic-cabify-ui
 ```
 
-añade la plataforma y listo ;)
+Agora basta adicionar a plataforma desejada entre 'Android' ou 'IOs'  ;)
 
 ```bash
 $ ionic cordova platform add ios
+ou
+$ ionic cordova platform add android
 ```
 
-*Made with ♡ by [Luis Bahamonde](https://roocket.io) | [Roocket Labs](https://roocket.io)*
+*Contato com [Rodrigo Galhardo](https://rodrigogalhardo.com.br) | [Trends IT Solutions](https://trendsitsolutions.com.br)*
 
 
 
